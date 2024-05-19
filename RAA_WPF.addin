@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAA_WPF</Text>
+    <Description>Some description for RAA_WPF</Description>
+    <Assembly>RAA_WPF.dll</Assembly>
+    <FullClassName>RAA_WPF.Command</FullClassName>
+    <ClientId>ab37f8e1-e4c7-4c6f-9088-326e028b017f</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_WPF</Name>
+    <Assembly>RAA_WPF.dll</Assembly>
+    <FullClassName>RAA_WPF.App</FullClassName>
+    <ClientId>03749ad8-4e60-4a7a-ab7e-78afcf189a54</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
